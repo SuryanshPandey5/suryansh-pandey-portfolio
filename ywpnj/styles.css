@@ -1,0 +1,55 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  color: red;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation--links-list {
+  display: flex;
+  list-style: none;
+}
+
+.navigation--link {
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+  border-color: red;
+  border-radius: 5000px;
+}
+
+.navigation--avatar-img {
+  height: 75px;
+}
+
+.navigation--link:hover {
+  background-color: rgba(105, 228, 201, 0.25);
+}
+
+.navigation--link > a {
+  color: red;
+  text-decoration: none;
+}
+
+.background--img {
+  background-image: url("38143.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px;
+}
+
+.box {
+  margin: 0px;
+  padding: 0px;
+  border-width: 3px;
+  border-color: red;
+  border-style: solid;
+  background-color: black;
+}
